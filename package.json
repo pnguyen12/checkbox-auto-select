@@ -1,0 +1,30 @@
+{
+  "name": "auto-select-checkboxes",
+  "version": "1.0.0",
+  "description": "Select and deselect multiple checkbox inputs at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live:server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnguyen12/checkbox-auto-select"
+  },
+  "keywords": [
+    "auto",
+    "select",
+    "checkboxes",
+    "inputs"
+  ],
+  "author": "Peter Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnguyen12/checkbox-auto-select/issues"
+  },
+  "homepage": "https://github.com/pnguyen12/checkbox-auto-select#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
