@@ -7,7 +7,6 @@ let isBetween = false;
  * @param {shiftKey} {event: {shiftkey: true || false }}
  */
 function onHandleCheck({ shiftKey }) {
-    console.log(shiftKey);
     if (isBetween) resetIsBetween();
     if (shiftKey && !this.checked) {
         checkboxes.forEach(check => {
